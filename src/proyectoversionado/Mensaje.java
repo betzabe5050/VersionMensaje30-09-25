@@ -41,15 +41,24 @@ public class Mensaje extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 		setContentPane(contentPane);
-		contentPane.setLayout(null);
 		
 		JButton btnNewButton = new JButton("Mensaje");
+		btnNewButton.setBounds(184, 91, 270, 41);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Hola Git");
 			}
 		});
-		btnNewButton.setBounds(184, 91, 270, 41);
+		contentPane.setLayout(null);
 		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("No soy ian");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola papu");
+			}
+		});
+		btnNewButton_1.setBounds(184, 142, 270, 34);
+		contentPane.add(btnNewButton_1);
 	}
 }
