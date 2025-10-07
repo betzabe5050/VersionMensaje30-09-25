@@ -64,7 +64,7 @@ public class Mensaje extends JFrame {
 		JButton btnBetza = new JButton("Desde eclipse");
 		btnBetza.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "Hola soy betza desde eclipse");
+				JOptionPane.showMessageDialog(null, "Hola soy betza desde eclipse "); 
 			}
 			
 		});
