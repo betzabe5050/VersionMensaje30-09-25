@@ -60,5 +60,15 @@ public class Mensaje extends JFrame {
 		});
 		btnNewButton_1.setBounds(184, 142, 270, 34);
 		contentPane.add(btnNewButton_1);
+		
+		JButton btnBetza = new JButton("Desde eclipse");
+		btnBetza.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola soy betza desde eclipse");
+			}
+			
+		});
+		btnBetza.setBounds(184, 192, 270, 23);
+		contentPane.add(btnBetza);
 	}
 }
