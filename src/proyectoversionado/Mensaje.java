@@ -70,5 +70,14 @@ public class Mensaje extends JFrame {
 		});
 		btnBetza.setBounds(184, 192, 270, 23);
 		contentPane.add(btnBetza);
+		
+		JButton BotonIan = new JButton("IanEclipse");
+		BotonIan.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola soy ian desde eclipse ");
+			}
+		});
+		BotonIan.setBounds(184, 226, 270, 23);
+		contentPane.add(BotonIan);
 	}
 }
